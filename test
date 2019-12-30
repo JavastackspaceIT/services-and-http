@@ -1,3 +1,22 @@
-this file is used for testing some changes has done hare
-this file is used for testing m df,mdf,dmfnd,fn
-locally i changes this file 
+package de.eptacon.store.bean;
+
+public class LoginBean {
+private String userName;
+	private String password;
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+}
